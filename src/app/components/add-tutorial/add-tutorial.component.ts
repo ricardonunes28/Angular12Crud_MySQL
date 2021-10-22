@@ -9,6 +9,11 @@ import { TutorialService } from 'src/app/services/tutorial.service';
 })
 export class AddTutorialComponent implements OnInit {
 
+  User = {
+    name: ''
+  }
+
+
   tutorial: Tutorial = {
     title: '',
     description: '',

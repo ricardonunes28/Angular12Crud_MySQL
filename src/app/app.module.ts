@@ -8,7 +8,8 @@ import { TutorialDetailsComponent } from './components/tutorial-details/tutorial
 import { TutorialsListComponent } from './components/tutorials-list/tutorials-list.component';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
-import {AppRoutingModule} from './app-routing.module'
+import {AppRoutingModule} from './app-routing.module';
+import { ChatComponent } from './components/chat/chat.component'
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import {AppRoutingModule} from './app-routing.module'
     AddTutorialComponent,
     TutorialDetailsComponent,
     TutorialsListComponent,
+    ChatComponent,
 
   ],
   imports: [
